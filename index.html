@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Anirban nath | Responsive Portfolio</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav__content">
+      <div class="logo"><a href="#home-section">Anirban's Portfolio</a></div>
+      <label for="check" class="checkbox">
+        <i class="ri-menu-line"></i>
+      </label>
+      <input type="checkbox" name="check" id="check" />
+      <ul>
+        <li><a href="#home-section">Home</a></li>
+        <li><a href="#about-section">About</a></li>
+        <li><a href="#project-section">Projects</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- home section starts here  -->
+  <section id="home-section" class="section">
+    <div class="section__container">
+      <div class="content">
+        <p class="subtitle home-subtitle">HELLO</p>
+        <h1 class="title">
+          I'm <span>Anirban<br />a</span>
+          <span id="element"></span>
+        </h1>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+        <p class="description">
+          Welcome to my Ai Engineer portfolio! I'm Anirban, a Fresher, passionate
+          and driven AI Engineer with a strong foundation in Gen AI, deep Learning, Foundation Models(llm,lmm) 
+          Software Development.I’m eager to contribute, grow, and make an impact as a developer and AI engineer.
+        </p>
+        <div class="action__btns">
+          <a href="AnirbanCV.pdf" download><button class="hire__me">Download CV</button></a>
+          <a href="https://github.com/Anirban2508" target="_blank"><button class="portfolio">My Github</button></a>
+        </div>
+      </div>
+      <div class="image">
+        <img src="Anirban.jpg" alt="profile" />
+      </div>
+    </div>
+  </section>
+  <!-- home section ends here  -->
+
+  <section id="about-section" class="about-new">
+    <div class="about-section">
+      <div class="about-title">ABOUT <span>ME</span></div>
+      <div class="about-divider"></div>
+      <div class="about-intro">
+        <div class="about-photo">
+          <div class="thats-me">That's me →</div>
+          <img src="Anirban2.jpg" alt="Profile Photo">
+        </div>
+        <div class="about-text">
+          Hi, I’m Anirban Nath from Naihati, West Bengal. I completed my Bachelors in Computer Science from SNC(Surendranath College) kolkata <br><br>
+          I’m passionate about building AI integrated web applications and exploring <strong>AI/ML</strong> technologies. I enjoy creating responsive,
+          user-friendly websites and working with a wide range of technologies including <strong> python, JavaScript, 
+          React, django, next.js, langChain, ADK, C, MySQL, Git,</strong> and popular data science libraries like <strong>NumPy, Pandas, Matplotlib,
+          &amp; Scikit-learn.</strong> I also love solving problems on LeetCode to sharpen my programming and problem-solving skills.<br><br>
+          When I’m not coding, I love learning new technologies, exploring creative solutions, and challenging myself
+          with interesting projects.
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <div class="column-title">THINGS I LOVE</div>
+          <div class="things-i-love-icons">
+            <img src="mountain.jpg" alt="music">
+            <img src="gym.jpg" alt="cycling">
+            <img src="code.png" alt="code">
+          </div>
+        </div>
+        <!-- <div class="column">
+          <div class="column-title">LOOK WHAT I CAN DO</div>
+          <div class="list-container">
+            <div>
+              <ul>
+                <li>Python</li>
+                <li>C</li>
+                <li></li>
+                <li>HTML/CSS/Javascript/PHP/REACT</li>
+                <li>FASTAPI</li>
+                <li>MYSQL</li>
+                <li>GIT</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li>MACHINE LEARNING</li>
+                <li>NUMPY</li>
+                <li>PANDAS</li>
+                <li>MATPLOTLIB</li>
+                <li>SCIKIT-LEARN</li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </section>
+  <!-- Projects section starts here  -->
+  <section id="project-section" class="section projects-section">
+    <h2 class="section-title">My Projects</h2>
+    <div class="section__container project-container">
+      <div class="projects-grid">
+
+        <!-- Project Card 1 -->
+        <div class="project-card">
+          <div class="video-wrapper">
+            <video controls controlsList="nodownload">
+              <source src="medCare_bbs_comm.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="project-info">
+            <h3>MedCare</h3>
+            <p>MedCare – An emergency medical support system featuring hospital bed booking with admin panel, ambulance and blood booking, plus medicine, equipment sales, and nurse services. Built with HTML, CSS, Bootstrap, JavaScript, PHP, and Laravel.</p>
+            <div class="project-links">
+              <a href="https://github.com/ShubhamDasgupta2003/Emergency_Medical_Support_System" target="_blank" class="project-btn">GitHub</a>
+              <!-- <a href="https://your-demo-link.com" target="_blank" class="project-btn secondary">Live Demo</a> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="project-card">
+          <div class="video-wrapper">
+            <video controls controlsList="nodownload">
+              <source src="Project.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="project-info">
+            <div class="text-info">
+              <h3>Country_Overview</h3>
+              <p>A website to know more about countries around us their population workings native languages capitals and many more </p>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Anirban2508/React_country_details" class="project-btn">GitHub</a>
+              <a href="https://react-country-details.vercel.app/" class="project-btn secondary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Projects section ends here  -->
+
+  <!-- Contact section starts here  -->
+
+  <section id="contact-section" class="section contact-section">
+    <div id="section-container-id" class="section__container2">
+      <div class="contact-content">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+          <div class="contact-left-title">
+            <h2>Get in touch</h2>
+            <hr>
+          </div>
+          <input type="hidden" name="access_key" value="b0cb3eab-094f-4699-a479-2be111121ddd">
+          <input type="text" name="name" placeholder="Your name" class="contact-inputs" required>
+          <input type="email" name="email" placeholder="Your email" class="contact-inputs" required>
+          <textarea name="message" placeholder="Your message" class="contact-inputs" required></textarea>
+          <button type="submit">submit <span class="material-symbols-outlined">
+              arrow_right_alt
+            </span></button>
+        </form>
+
+        <div class="contact-right">
+          <div class="image2">
+            <img src="Anirban2.jpg" alt="" class="profile-img">
+          </div>
+          <div class="text-data">
+            <span class="name">Anirban Nath</span>
+            <span class="job">Fresher </span>
+          </div>
+          <div class="media-buttons">
+            <a href="https://www.instagram.com/_anirban.003_?igsh=ZWpiNHh5MzNyejhu" target="_blank"
+              style="background:#e1306c;" class="link">
+              <i class='bx bxl-instagram'></i>
+            </a>
+            <a href="https://www.linkedin.com/in/anirban-nath-54864b320"
+              target="_blank" style="background:#0072b1;" class="link">
+              <i class='bx bxl-linkedin'></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact section ends here  -->
+
+</body>
+<script src="script.js"></script>
+
+</html>
